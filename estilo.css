@@ -30,7 +30,7 @@ body{
 
 header{
     grid-area: header;
-    background-color:#48e ;
+    background-color:rgb(238, 68, 181) ;
    /* position: sticky;
     top: 0;
     z-index: 1000;*/
