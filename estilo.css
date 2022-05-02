@@ -187,21 +187,15 @@ a{
     color: antiquewhite;
     
 }
-.aside_container_recomendados{
-    
-    border:2px solid #777;
-    margin: 5px  0;    
-    border-radius: 10px;
-    
-   
-    
-}
+
 .burbujas{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 60px;
-    
+    border:2px solid #777;
+    margin: 5px  0;    
+    border-radius: 10px;
 }
 
 .bur{
