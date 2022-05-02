@@ -59,6 +59,7 @@ section{
     grid-area: section;
    /* background-color: yellow;*/
     position: relative;
+    margin-bottom: 100px;
     
    
 }
@@ -280,7 +281,7 @@ aside_container_cuerpo{
 
  
  
-@media screen and (max-width:1150px){
+@media screen and (max-width:1024px){
 
     #body_container{
         display: flex;
@@ -291,4 +292,6 @@ aside_container_cuerpo{
         
     }
 
+}
+@media screen and (max-width:640px){
 }
