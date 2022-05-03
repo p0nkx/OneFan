@@ -58,7 +58,7 @@ aside{
 section{
     grid-area: section;
    /* background-color: yellow;*/
-    position: relative;
+    
     margin-bottom: 100px;
     
    
@@ -73,8 +73,9 @@ section{
 footer{
     grid-area: footer;
     background-color: rgb(95, 12, 190);
+    
     position: absolute;
-    bottom:0px;
+    bottom: 0;
     height: 50px;
     width: 100%;
     
@@ -415,6 +416,9 @@ align-items: center;
     height: 100%;
     justify-content:center;
     
+}
+footer{
+   position: static;
 }
 
 
