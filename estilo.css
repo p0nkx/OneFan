@@ -232,6 +232,7 @@ a{
     display: grid;
     grid-template-columns: repeat(3,220px);
     grid-template-rows: repeat(3,300px);
+   
     grid-row-gap: 30px;
     grid-column-gap:20px ;
     justify-content: center;
@@ -309,6 +310,9 @@ aside{
 }
 @media screen and (max-width:800px){
 
+header{
+    width: 100%;
+}
 .aside_container_recomendados{
     display: flex;
     justify-content: start;
@@ -355,4 +359,13 @@ aside{
     width: 50%;
     object-fit: contain;
 }
+.section_container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
 }
