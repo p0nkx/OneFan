@@ -259,6 +259,10 @@ a{
     object-fit: contain;
     transform:scale(1);
    
+   
+}
+#sino1,#sino2,#sino3,#sino4{
+    display: none;
 }
 
 @media screen and (max-width:1500px){
@@ -270,6 +274,9 @@ header{
 aside{
     left: 10%;
 
+}
+#sino1,#sino2,#sino3,#sino4{
+    display: none;
 }
 
 }
@@ -339,6 +346,9 @@ aside{
     height: 15rem;
     width: 50%;
     object-fit: contain;
+}
+#sino1,#sino2,#sino3,#sino4{
+    display: none;
 }
 
 }
@@ -419,6 +429,10 @@ align-items: center;
 }
 footer{
    position: static;
+}
+
+#sino1,#sino2,#sino3,#sino4{
+    display: none;
 }
 
 
