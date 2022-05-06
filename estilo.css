@@ -350,9 +350,7 @@ aside{
 #sino1,#sino2,#sino3,#sino4{
     display: none;
 }
-.header_buscar{
-    background-color: ;
-}
+
 }
 @media screen and (max-width:800px){
 
@@ -438,4 +436,13 @@ footer{
 }
 
 
+}
+
+#publi{
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 500px;
+    background-color: #000;
+    z-index: 1000;
 }
