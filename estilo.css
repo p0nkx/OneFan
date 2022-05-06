@@ -350,7 +350,9 @@ aside{
 #sino1,#sino2,#sino3,#sino4{
     display: none;
 }
-
+.header_buscar{
+    background-color: ;
+}
 }
 @media screen and (max-width:800px){
 
