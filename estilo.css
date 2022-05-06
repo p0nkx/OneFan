@@ -9,7 +9,7 @@
  
 #body_container{
   
-    
+    height: 100%;
     display: grid;
     grid-template-areas: 
     "header header"
@@ -17,7 +17,7 @@
     "aside section"
     "none section"
     "footer footer";
-    grid-template-rows:90px 20vw 25vw 100px 50px;
+    grid-template-rows:90px 20% 60% 100px 50px;
     grid-template-columns:25% 75%;
     grid-row-gap: 20px;
     
@@ -76,9 +76,7 @@ footer{
     grid-area: footer;
     background-color: rgb(95, 12, 190);
     
-    bottom: 0;
-    height: 50px;
-    width: 100%;
+    
     
     
 }
@@ -308,12 +306,7 @@ aside{
     align-items:stretch;
     height: auto;
 }
-.aside_container_titulo{
-    border:2px solid orange;
-    border-radius: 10px;
-    background-color: rgb(95, 12, 190);
-    margin-bottom: 5px;
-}
+
 .aside_container_titulo h2{
     font-size: 2rem;
     color: antiquewhite;
@@ -355,9 +348,7 @@ aside{
 }
 @media screen and (max-width:800px){
 
-header{
-    width: 100%;
-}
+
 .aside_container_recomendados{
     display: flex;
     justify-content: start;
@@ -414,13 +405,11 @@ align-items: center;
 
 .header_buscar{
     display: none;
-}/*
+}
 #inicio,#directorio{
     display: none;
-}*/
-.header_right{
-    display: none;
 }
+
 .header_container{
     display: flex;
     width: 100vw;
@@ -428,9 +417,7 @@ align-items: center;
     justify-content:center;
     
 }
-footer{
-   position: static;
-}
+
 
 #sino1,#sino2,#sino3,#sino4{
     display: none;
@@ -439,11 +426,3 @@ footer{
 
 }
 
-#publi{
-    width: 500px;
-    height: 500px;
-    position: fixed;
-    top: 500px;
-    background-color: #000;
-    z-index: 1000;
-}
