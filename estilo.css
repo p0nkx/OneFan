@@ -17,7 +17,7 @@
     "aside section"
     "none section"
     "footer footer";
-    grid-template-rows:90px 20% 60% 100px 50px;
+    grid-template-rows:90px auto auto auto 50px;
     grid-template-columns:25% 75%;
     grid-row-gap: 20px;
     
@@ -37,7 +37,7 @@ header{
 
 aside{
     grid-area: aside;
-  /*  background-color: green;*/
+   /* background-color: green;*/
     position: relative;
     left: 200px;
     z-index: 100;
@@ -71,10 +71,25 @@ section{
 
 footer{
     grid-area: footer;
+    display: flex;
+    justify-content: start;
     background-color: rgb(95, 12, 190);
+    color: rgb(88, 156, 215);
+    font-size: 1.5rem;
+    align-items: center;
+    position: relative;
+    border: 2px solid black;
 }
 
-
+#up{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    font-size: 60px;
+}
 
 #row{
     
@@ -167,9 +182,10 @@ a{
     font-weight:  900;
     color: aliceblue;
 }
-.icono_logo{
+#icoMenu{
     width: 50px;
     height: 50px;
+    font-size: 80px;
 }
 
 .aside_container_titulo{
