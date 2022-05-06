@@ -1,4 +1,4 @@
-
+/*  Normalizo la pagina*/
 * {
     Margin:0;
     padding:0;
@@ -6,7 +6,7 @@
     
  }
 
- 
+ /*     Defino la grilla*/
 #body_container{
   
     height: 100%;
@@ -32,12 +32,9 @@ body{
 header{
     grid-area: header;
     background-color:#48e ;
-   /* position: sticky;
-    top: 0;
-    z-index: 1000;*/
-    
-    
+
 }
+
 aside{
     grid-area: aside;
   /*  background-color: green;*/
@@ -75,10 +72,6 @@ section{
 footer{
     grid-area: footer;
     background-color: rgb(95, 12, 190);
-    
-    
-    
-    
 }
 
 
@@ -343,6 +336,11 @@ aside{
 }
 #sino1,#sino2,#sino3,#sino4{
     display: none;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
 }
 
 }
