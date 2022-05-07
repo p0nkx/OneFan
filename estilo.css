@@ -70,13 +70,29 @@ section{
    margin: 10px;
    padding: 10px;
    /* background-color: #48e;*/
-    width: 3fr;
+    
     
 }
 
 footer{
     grid-area: footer;
+    display: flex;
+    justify-content: start;
     background-color: rgb(95, 12, 190);
+    color: rgb(88, 156, 215);
+    font-size: 1.5rem;
+    align-items: center;
+    position: relative;
+    border: 2px solid black;
+}
+#up{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    font-size: 60px;
 }
 
 
