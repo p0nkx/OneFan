@@ -12,15 +12,7 @@
     
     display: grid;
     grid-template-areas: 
-<<<<<<< Updated upstream
-    "header header"
-    "aside section"
-    "aside section"
-    "none section"
-    "footer footer";
-    grid-template-rows:90px 20% 60% 100px 50px;
-    grid-template-columns:25% 75%;
-=======
+
     "header header header header"
     "none aside section 4"
     "none aside section 4"
@@ -28,7 +20,7 @@
     "footer footer footer footer";
     grid-template-rows:90px auto auto auto 50px;
     grid-template-columns:repeat(4,1fr);
->>>>>>> Stashed changes
+
     grid-row-gap: 20px;
 
     
@@ -50,20 +42,8 @@ header{
 
 aside{
     grid-area: aside;
-<<<<<<< Updated upstream
   /*  background-color: green;*/
-    position: relative;
-    left: 200px;
-    z-index: 100;
-=======
-   /* background-color: green;*/
-   max-width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: start;
-    height: 100%;
-    
->>>>>>> Stashed changes
+    min-width: 400px;
     
 }
 
