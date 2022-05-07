@@ -259,6 +259,45 @@ footer{
     }
     
     
+    @media screen and (max-width:630px) {
+
+        section{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+                   
+        }   
+        
+    #icon_logo{
+    
+        font-size: 60px;
+        color: #777;
+        position: absolute;
+        right: 20px;
+        
+    
+    }
+    
+    .header_buscar{
+        display: none;
+    }
+    #inicio,#directorio{
+        display: none;
+    }
+    
+    .header_container{
+        display: flex;
+        width: 100vw;
+        height: 100%;
+        justify-content:start;
+        
+    }
+    
+    
+  
+    footer{
+        height: 70px;
+    }
+    }
 
 
 
