@@ -313,9 +313,10 @@ aside{
                 
 .aside_container_recomendados{
     display: flex;
-    justify-content: start;
-    align-items:stretch;
-    height: auto;
+    
+    justify-content: space-evenly;
+    align-items:center;
+   
 }
 
 .aside_container_titulo h2{
@@ -324,9 +325,7 @@ aside{
     
     
 }
-aside{
-    margin:0;
-}
+
 .burbujas{
     display: flex;
     flex-direction: column;
@@ -348,11 +347,28 @@ aside{
    
     border-radius: 10px;
 }
+.dentro{
+    display: grid;
+    grid-template-areas: 
+    "imagen titulo"
+    "imagen sinopsis";
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 30% 70%; 
+    align-items: center;
+}
 .portada{
-  
-    height: 15rem;
-    width: 50%;
-    object-fit: contain;
+    grid-area: imagen;
+}
+.dentro h3{
+    grid-area: titulo;
+    font-size: 2rem;
+}
+.sinopsis{
+    grid-area: sinopsis;
+}
+.portada{
+    width: 100%;
+    height: 100%;
 }
 #sino1,#sino2,#sino3,#sino4{
     display: none;
@@ -369,9 +385,7 @@ footer{
 
 .aside_container_recomendados{
     display: flex;
-    justify-content: start;
-    align-items:stretch;
-    height: auto;
+    
 }
 .aside_container_titulo{
     border:2px solid orange;
@@ -390,29 +404,47 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: start;
-    height: 100%;
+    align-items: center;
+    
 
     border:2px solid #777;
     margin: 5px  0;    
     border-radius: 10px;
+    height: 100%;
 }
-
-
+.dentro{
+    display: grid;
+    grid-template-areas: 
+    "imagen titulo"
+    "imagen sinopsis";
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 30% 70%; 
+    align-items: center;
+}
+.portada{
+    grid-area: imagen;
+}
+.dentro h3{
+    grid-area: titulo;
+    font-size: 2rem;
+}
+.sinopsis{
+    grid-area: sinopsis;
+}
+.portada{
+    width: 100%;
+    height: 100%;
+}
 
 .aside_container_cuerpo{
     
     padding: 5px;
     border:2px solid #777;
+ 
    
     border-radius: 10px;
 }
-.portada{
-  
-    height: 15rem;
-    width: 50%;
-    object-fit: contain;
-}
+
 .section_container{
 display: flex;
 flex-direction: column;
