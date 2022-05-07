@@ -27,8 +27,9 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: #F2F2F2;
    font-size: 16px;
+   
    
     
 }
@@ -263,7 +264,7 @@ a{
 .section_container a{
     
     border:2px solid #777;
-    background-color: #000;
+    background-color: #444941;
     
     overflow:hidden;
     border-radius: 20px;
