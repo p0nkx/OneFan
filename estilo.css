@@ -37,7 +37,7 @@ body{
 header{
     grid-area: header;
     background-color:#48e ;
-
+    position: relative;
 }
 
 aside{
@@ -399,7 +399,14 @@ footer{
     
     
 }
+#icon_logo{
 
+    font-size: 60px;
+    color: #777;
+    position: absolute;
+    right: 40px;
+
+}
 .burbujas{
     display: flex;
     flex-direction: column;
