@@ -8,10 +8,7 @@
 
  /*     Defino la grilla*/
 #body_container{
-  
-    
-   
-    
+ 
 }
 
 
@@ -22,6 +19,7 @@ body{
    font-size: 16px;
    background-image: url(multimedia/fondocalacora.jpg)
    
+
        
 }
 
@@ -36,10 +34,70 @@ header{
 
 
 section{
+    display: grid;
+    grid-template-areas: 
+    "anime anime anime series cosplay"
+    "aside marvel naturaleza naturaleza cosplay"
+    "aside dc dc juegos juegos";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(5,1fr);
     
-    height:100vh;
+    width: 100%;
+    height: 100%;
   
 }
+#aside{
+    grid-area: aside;
+    background-color: #48e;
+    border:3px solid #777;
+   
+}
+
+#dirAnime{
+    grid-area: anime;
+    
+   
+}
+#dirSeries{
+    grid-area: series;
+    
+    
+}
+#dirCosplay{
+    grid-area: cosplay;
+   
+    
+}
+#dirMarvel{
+    grid-area: marvel;
+    
+    
+  
+}
+#dirNatu{
+    grid-area: naturaleza;
+   
+   
+}
+#dirDc{
+    grid-area: dc;
+    
+    
+}
+#dirJuegos{
+    grid-area: juegos;
+    
+    
+}
+.contBanner img{
+   
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+    border: 5px solid black;
+}
+
 footer{
     
     display: flex;
@@ -169,11 +227,7 @@ a{
 
 
 @media screen and (max-width:1200px){
-section{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
-           
-}   
+
    
       
 footer{
@@ -226,11 +280,7 @@ footer{
     
     @media screen and (max-width:630px) {
 
-        section{
-            display: grid;
-            grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
-                   
-        }   
+        
         
     #icon_logo{
     
