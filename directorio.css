@@ -17,10 +17,11 @@
 
 body{
  
+   
+    background-color: #F2F2F2;
    font-size: 16px;
-   
-   
-    
+   background-image: url(/multimedia/fondocalacora.jpg)
+       
 }
 
 
@@ -35,11 +36,11 @@ header{
 
 section{
     
-    
+    height:100vh;
   
 }
 footer{
-    width: 100vw;
+    
     display: flex;
     justify-content: start;
     background-color: rgb(95, 12, 190);
