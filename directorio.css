@@ -39,7 +39,7 @@ section{
   
 }
 footer{
-    
+    width: 100vw;
     display: flex;
     justify-content: start;
     background-color: rgb(95, 12, 190);
