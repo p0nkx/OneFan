@@ -46,33 +46,51 @@ section{
     height: 100%;
   
 }
+
+.imageBox{
+    position: relative;
+    overflow: hidden;
+    grid-area: cosplay;
+}
+.imageBox img{
+    width: 100%;
+}
+.texBox{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    transition: .5s;
+}
+.texBox h2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    color: #fff;
+
+}
+.imageBox:hover .texBox{
+    left: 0%;
+}
+
+
+
+
+
 #aside{
     grid-area: aside;
     background-color: #48e;
     border:3px solid #777;
    
 }
-.h2Banner{
-    position: absolute;
-    
-    top: 0;
-    left: -400px;
-    
-    font-size: 100px;
-   
-}
 #dirAnime{
     grid-area: anime;
        
-}
-.efecto{
-    position: relative;
-}
-.efecto:hover{
-    opacity: .7;
-   border: 3px solid black;
-    
-    
 }
 
 #dirSeries{
@@ -107,15 +125,7 @@ section{
     
 }
 
-.contBanner img{
-   
-   
-    width: 100%;
-    height: 100%;
-    object-fit: cover ;
-    
-    
-}
+
 
 footer{
     
