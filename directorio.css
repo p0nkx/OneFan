@@ -56,7 +56,7 @@ section{
     position: absolute;
     
     top: 0;
-    left: -100px;
+    left: -400px;
     
     font-size: 100px;
    
@@ -106,12 +106,14 @@ section{
     
     
 }
+
 .contBanner img{
    
    
     width: 100%;
     height: 100%;
     object-fit: cover ;
+    
     
 }
 
