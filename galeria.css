@@ -46,11 +46,12 @@ section{
    
    height: 100%;
    position: relative;
+   margin: 0 20px;
 }
 .galery{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
     border: 2px solid whitesmoke;
     border-radius: 10px;
     
@@ -245,6 +246,7 @@ footer{
         width: 100vw;
         height: 100%;
         justify-content:center;
+        
         
     }
     
