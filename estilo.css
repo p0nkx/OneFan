@@ -40,7 +40,9 @@ header{
     background-color:#48e ;
     position: relative;
 }
-
+#icon_logo{
+    display: none;
+}
 aside{
     grid-area: aside;
   /*  background-color: green;*/
@@ -389,9 +391,7 @@ footer{
     color: antiquewhite;
        
 }
-.header_right{
-    overflow: hidden;
-}
+
 #icon_logo{
 
     font-size: 60px;

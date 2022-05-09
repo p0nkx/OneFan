@@ -102,7 +102,9 @@ footer{
 #menuBox{
     display: none;
 }
-
+#icon_logo{
+    display: none;
+}
 
 #row{
     

@@ -25,7 +25,9 @@ body{
 #menuBox{
     display: none;
 }
-
+#icon_logo{
+    display: none;
+}
 header{
    
     background-color:#48e ;
