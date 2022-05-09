@@ -307,6 +307,55 @@ footer{
     
     }
     
+#menuBox{
+    position: absolute;
+    top:90px;
+    left: 20%;
+    width: 80%;
+    height: 40vh;
+    background: #48e;
+    border-radius: 20px;
+   border: 2px solid #F2F2F2;
+   z-index: 1000;
+}
+#menuMobile{
+    
+    height: 100%;
+   
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+    
+}
+#flecha{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 39.7vh;
+    font-size: 80px;
+    color: #777;
+    padding: 9px;
+    border:2px solid #444941;
+    border-radius: 20px;
+}
+.menuMobileBox{
+    padding: 20px;
+    width: 80%;
+    height: 50%;
+    
+}
+.menuMobileBox ul li{
+
+    font-size: 60px;
+    list-style: none;
+    text-align: center;
+}
+#menuBox{
+    display: none;
+}
+    
     .header_buscar{
         display: none;
     }
