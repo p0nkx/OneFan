@@ -69,21 +69,21 @@
                     <div class="aside_container_recomendados">
                         
                         <div class="burbujas"> 
-                            <a href="">
-                                <img src="./multimedia/burbujas/1.jpg" id="bur1" class="bur">
-                            </a>
-                            <a href="">
-                                <img src="./multimedia/burbujas/2.jpg" id="bur2" class="bur">
-                            </a>
-                            <a href="">
-                                <img src="./multimedia/burbujas/3.jpg" id="bur3" class="bur">
-                            </a>
-                            <a href="">
-                                <img src="./multimedia/burbujas/4.jpg" id="bur4" onclick="mostrar()" class="bur">
-                            </a>
-                            <a href="">
-                                <img src="./multimedia/burbujas/5.jpg" id="bur5" onclick="ocultar();"class="bur">
-                            </a>
+                            
+                                <img src="./multimedia/burbujas/1.jpg" id="bur1"  onclick="mostrar1()" class="bur">
+                            
+                            
+                                <img src="./multimedia/burbujas/2.jpg" id="bur2"  onclick="mostrar2()" class="bur">
+                            
+                          
+                                <img src="./multimedia/burbujas/3.jpg" id="bur3"  onclick="mostrar3()" class="bur">
+                           
+                            
+                                <img src="./multimedia/burbujas/4.jpg" id="bur4"  onclick="mostrar4()" class="bur">
+                            
+                            
+                                <img src="./multimedia/burbujas/5.jpg" id="bur5"  onclick="mostrar5()" class="bur">
+                            
                         </div>
                     
                                 <div class="aside_container_cuerpo">
@@ -122,12 +122,44 @@
 
                                 </div>
                                 <script>
-                                    function mostrar(){
+                                    function mostrar1(){
+                                        document.getElementById('sino1').style.display = 'none';
+                                        document.getElementById('sino2').style.display = 'block';
+                                        document.getElementById('sino3').style.display = 'none';
+                                        document.getElementById('sino4').style.display = 'none';
+                                        document.getElementById('sino5').style.display = 'none';
+                                    }
+                                    function mostrar2(){
+                                        document.getElementById('sino1').style.display = 'none';
+                                        document.getElementById('sino2').style.display = 'none';
+                                        document.getElementById('sino3').style.display = 'block';
+                                        document.getElementById('sino4').style.display = 'none';
+                                        document.getElementById('sino5').style.display = 'none';
+                                    }
+                                    function mostrar3(){
+                                        document.getElementById('sino1').style.display = 'block';
+                                        document.getElementById('sino2').style.display = 'none';
+                                        document.getElementById('sino3').style.display = 'none';
+                                        document.getElementById('sino4').style.display = 'none';
+                                        document.getElementById('sino5').style.display = 'none';
+                                    }
+                                    function mostrar4(){
+                                        document.getElementById('sino1').style.display = 'none';
+                                        document.getElementById('sino2').style.display = 'none';
+                                        document.getElementById('sino3').style.display = 'none';
                                         document.getElementById('sino4').style.display = 'block';
+                                        document.getElementById('sino5').style.display = 'none';
+                                    }
+                                    function mostrar5(){
+                                        document.getElementById('sino1').style.display = 'none';
+                                        document.getElementById('sino2').style.display = 'none';
+                                        document.getElementById('sino3').style.display = 'none';
+                                        document.getElementById('sino4').style.display = 'none';
+                                        document.getElementById('sino5').style.display = 'block';
                                     }
                             
                                     function ocultar(){
-                                        document.getElementById('sino5').style.display = 'none';
+                                        document.getElementById('').style.display = 'none';
                                     }
                                 </script>
                          </div>
