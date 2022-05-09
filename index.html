@@ -46,8 +46,9 @@
                         
                                 <a class="link" href="" id="inicio">Inicio</a>
                                 <a class="link" href="directorio.html" id="directorio">Directorio</a>
-                                <i class="fa-solid fa-bars" id="icon_logo"></i>
-                               
+                                
+                                <i class="fa-solid fa-bars" id="icon_logo" onclick="menu()"></i>
+                                
                             
                     </nav>    
                     
@@ -56,7 +57,19 @@
 
             </div>
         </header>
-
+        <div id="menuBox">
+            <div id="menuMobile">
+                <div>
+                    <i class="fa-solid fa-angle-right" id="flecha" onclick="menu1()"></i>
+                </div>
+                <div class="menuMobileBox">
+                    <ul>
+                        <li class="link"><a href="/index.html"> inicio</a></li>
+                        <li class="link"><a href="/directorio.html"> directorio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     
         <aside class="border">
 
@@ -156,6 +169,12 @@
                                         document.getElementById('sino3').style.display = 'none';
                                         document.getElementById('sino4').style.display = 'none';
                                         document.getElementById('sino5').style.display = 'block';
+                                    }
+                                    function menu(){
+                                        document.getElementById("menuBox").style.display = "block";
+                                    }
+                                    function menu1(){
+                                        document.getElementById("menuBox").style.display = "none";
                                     }
                             
                                     function ocultar(){
