@@ -22,7 +22,9 @@ body{
 
        
 }
-
+#menuBox{
+    display: none;
+}
 
 header{
    

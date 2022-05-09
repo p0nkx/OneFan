@@ -99,7 +99,9 @@ footer{
     bottom: 50px;
     font-size: 60px;
 }
-
+#menuBox{
+    display: none;
+}
 
 
 #row{
