@@ -305,7 +305,7 @@ footer{
         color: #777;
         position: absolute;
         right: 20px;
-        
+        display: block; 
     
     }
     

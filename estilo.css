@@ -397,7 +397,8 @@ footer{
     font-size: 60px;
     color: #777;
     position: absolute;
-    right: 20px;    
+    right: 20px;   
+    display: block; 
 }
 #menuBox{
     position: absolute;
