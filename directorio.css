@@ -40,7 +40,7 @@ section{
     display: grid;
     grid-template-areas: 
     "anime anime anime series cosplay"
-    "aside marvel naturaleza naturaleza cosplay"
+    "aside marvel marvel peliculas cosplay"
     "aside dc dc juegos juegos";
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: repeat(5,1fr);
@@ -85,8 +85,10 @@ section{
 .imageBox:hover .texBox{
     left: 0%;
 }
-
-
+/* se usa el filtro para desenfocar
+.imageBox:hover{
+    filter:blur(10px);
+}*/
 
 
 
@@ -117,8 +119,8 @@ section{
     
   
 }
-#dirNatu{
-    grid-area: naturaleza;
+#dirPelis{
+    grid-area: peliculas;
    
    
 }
