@@ -235,7 +235,7 @@ a{
 }
 .bur:hover{
     transform:scale(1.8);
-    border:2px solid rgb(95, 12, 190);
+    border:2px solid orange;
     
 }
 .aside_container_cuerpo{
@@ -265,22 +265,25 @@ a{
 }
 .section_container a{
     
-    border:2px solid #777;
-    background-color: #444941;
+    border:3px solid black;
+    
     
     overflow:hidden;
     border-radius: 20px;
 }
+.section_container a:hover{
+    border:3px solid orange;
+}
 .port{
-    object-fit:contain cover;
+    object-fit:cover;
     width: 100%;
     height: 100%;
     
     
 }
 .port:hover{
-    object-fit: contain;
-    transform:scale(1);
+    
+    transform:scale(1.2);
    
    
 }
