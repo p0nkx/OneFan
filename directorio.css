@@ -97,6 +97,10 @@ footer{
     bottom: 50px;
     font-size: 60px;
 }
+#up:hover{
+    color: #a765e0;
+    }
+    
 
 
 
@@ -204,7 +208,7 @@ a{
 }
 
 .aside_container_titulo{
-    border:2px solid orange;
+    border:2px solid #777;
     border-radius: 10px;
     background-color: rgb(95, 12, 190);
         
@@ -235,9 +239,10 @@ a{
 }
 .bur:hover{
     transform:scale(1.8);
-    border:2px solid orange;
+    border:2px solid #777;
     
 }
+
 .aside_container_cuerpo{
     
     padding: 5px;
@@ -247,7 +252,28 @@ a{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+   
 }
+
+#enlacesExternos a{
+
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+#enlacesExternos h3{
+    font-size: 2rem;
+    margin-top: 60px;
+}
+#enlacesExternos img{
+    border: 3px solid #777;
+   margin: 3px 0;
+    
+}
+
 .portada{
   
     height: 200px;
@@ -255,10 +281,10 @@ a{
 }
 .section_container{
     display: grid;
-    grid-template-columns: repeat(3,220px);
-    grid-template-rows: repeat(3,300px);
-   
-    grid-row-gap: 30px;
+    grid-template-columns: repeat(3,15rem);
+    
+    text-align: center;
+    grid-row-gap: 50px;
     grid-column-gap:20px ;
     justify-content: center;
    
@@ -266,25 +292,32 @@ a{
 .section_container a{
     
     border:3px solid black;
-    
-    
+   position: relative;
     overflow:hidden;
     border-radius: 20px;
 }
+
 .section_container a:hover{
-    border:3px solid orange;
+    border: 3px solid #777;
 }
+.section_container h3{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    
+}
+
 .port{
     object-fit:cover;
     width: 100%;
     height: 100%;
     
-    
+
 }
 .port:hover{
     
     transform:scale(1.2);
-   
+   filter: opacity(.8);
    
 }
 #sino1,#sino2,#sino3,#sino4{
@@ -311,14 +344,16 @@ a{
  }
            
            
-   
+.aside_container{
+    width: 100%;
+}
                 
 .aside_container_recomendados{
     display: flex;
     margin-top: 5px;
     justify-content: space-evenly;
     align-items:center;
-   
+  
 }
 
 
@@ -348,6 +383,11 @@ a{
    
     border-radius: 10px;
 }
+
+#enlacesExternos{
+  display:none;
+}
+
 .dentro{
     display: grid;
     grid-template-areas: 
