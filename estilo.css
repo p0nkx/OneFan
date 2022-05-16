@@ -79,7 +79,7 @@ section{
     transform: translateX(-50%)translateY(-50%);
     color: #fff;
     font-family: 'Bebas Neue', cursive;
-    font-size: 100px;
+    font-size: 5rem;
     
 }
 .imageBox:hover .texBox{
