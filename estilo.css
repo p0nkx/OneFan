@@ -184,7 +184,13 @@ a{
     padding-right: 10px;
     border:5px solid #777;
     border-radius: 20px;
+    
 }
+.logo:hover{
+    transform: rotate(5deg);
+    transition: .3s;
+}
+
 .imgLogo{
 
     height: 90px;
