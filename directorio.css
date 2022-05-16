@@ -22,7 +22,7 @@
     grid-template-columns:repeat(4,1fr);
 
     grid-row-gap: 20px;
-
+    min-width: 600px;
     
 }
 
@@ -30,7 +30,7 @@ body{
     background-color: #F2F2F2;
    font-size: 16px;
    background-image: url(multimedia/fondocalacora.jpg)
-      
+    
    
 }
 
@@ -343,10 +343,7 @@ a{
             align-items:center;
  }
            
-           
-.aside_container{
-    width: 100%;
-}
+        
                 
 .aside_container_recomendados{
     display: flex;
@@ -384,9 +381,7 @@ a{
     border-radius: 10px;
 }
 
-#enlacesExternos{
-  display:none;
-}
+
 
 .dentro{
     display: grid;
@@ -408,7 +403,9 @@ a{
     grid-area: sinopsis;
 }
 
-
+#enlacesExternos{
+    display:none;
+  }
 
 footer{
     height: 50px;
@@ -417,6 +414,7 @@ footer{
 
 }
 @media screen and (max-width:800px){
+
 
 
 .aside_container_recomendados{
@@ -558,6 +556,9 @@ align-items: center;
     
 }
 
+#enlacesExternos{
+    
+}
 
 }
 
