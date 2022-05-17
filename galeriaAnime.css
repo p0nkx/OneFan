@@ -490,7 +490,9 @@ a{
     
     @media screen and (max-width:630px) {
 
-       
+       .section_container{
+           display: block;
+       }
         
     #icon_logo{
     
