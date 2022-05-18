@@ -69,8 +69,10 @@ h1{
     vertical-align: top;
 }
 .fotoContainer:hover{
-    transform: scale(.9);
+    transform: scale(.99);
+    
 }
+
 
 .fotoContainer:nth-child(1){
     grid-row:1/2 ;
@@ -284,7 +286,7 @@ a{
 
 .galeriaZoom{
     position: fixed;
-    top: 90px;
+    top: 0;
     left: 0;
     background: rgba(0,0,0,.5);
     width: 100%;
@@ -300,8 +302,9 @@ a{
 .galeriaZoom img{
    max-width: 80%;
     max-height: 100%;
-
+    
 }
+
 .galeriaZoom:target{
     transform: scale(1);
 }
