@@ -282,19 +282,30 @@ aside{
     grid-area: aside;
     border:1px solid black;
 }
+#redes{
+    text-align: center;
+    
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
 .asideContainer{
-    width: 100%;
-height: 100%;
-    border: 3px solid #444941;
+    
+    
    display: grid;
    grid-template-areas: 
    "face insta"
    "teleg twich"
    "twita yutu"
-   "publi publi";
-   grid-template-columns:50% 50%;
-   grid-template-rows: repeat(25%,4);
-  
+   "marta marta";
+   grid-template-columns:1fr 1fr;
+   grid-template-rows: repeat(4,fr);
+   width: 100%;
+   height: 95%;
+   grid-gap: 10px;
+   align-items:center;
+   justify-content:space-evenly;
+   
+   
 }
 #facebook{
 grid-area: face;
@@ -306,30 +317,42 @@ grid-area: insta;
 }
 #telegram{
 grid-area: teleg;
+
 }
 #twich{
     grid-area: twich;
+    
 }
 #twitter{
     grid-area: twita;
+   
 }
 #youtube{
     grid-area: yutu;
+    
 }
-#publicidad{
-    grid-area: publi;
+#marta{
+    grid-area: marta;
+    margin-bottom: 50px;
+    
 }
 
 .asideContainer img{
-    width: auto;
-    height: 150px;
-    border: 2px solid #777;
+    width: 100%;
+    height: 100%;
+   /* border:2px solid #444941;*/
+    
 }
 
 
-@media screen and (max-width:1200px){
 
-    
+@media screen and (max-width:1200px){
+#redes{
+    display: none;
+}
+.asideContainer{
+    display: none;
+}
 section{
     display: flex;
     flex-direction: column;
