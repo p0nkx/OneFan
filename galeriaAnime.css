@@ -298,7 +298,7 @@ a{
     transition: transform .3s ease-in-out;
 }
 .galeriaZoom img{
-    width: auto;
+   max-width: 80%;
     max-height: 100%;
 
 }
