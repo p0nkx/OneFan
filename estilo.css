@@ -91,13 +91,6 @@ section{
 }*/
 
 
-
-#aside{
-    grid-area: aside;
-   
-    border:1px solid black;
-   
-}
 #dirAnime{
     grid-area: anime;
        
@@ -284,6 +277,53 @@ a{
 .icono_logo{
     width: 50px;
     height: 50px;
+}
+aside{
+    grid-area: aside;
+    border:1px solid black;
+}
+.asideContainer{
+    width: 100%;
+height: 100%;
+    border: 3px solid #444941;
+   display: grid;
+   grid-template-areas: 
+   "face insta"
+   "teleg twich"
+   "twita yutu"
+   "publi publi";
+   grid-template-columns:50% 50%;
+   grid-template-rows: repeat(25%,4);
+  
+}
+#facebook{
+grid-area: face;
+
+}
+#instagram{
+grid-area: insta;
+
+}
+#telegram{
+grid-area: teleg;
+}
+#twich{
+    grid-area: twich;
+}
+#twitter{
+    grid-area: twita;
+}
+#youtube{
+    grid-area: yutu;
+}
+#publicidad{
+    grid-area: publi;
+}
+
+.asideContainer img{
+    width: auto;
+    height: 150px;
+    border: 2px solid #777;
 }
 
 
