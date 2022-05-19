@@ -333,8 +333,28 @@ a{
     text-align: center;
     margin: 20px;
     font-size: 40px;
+    position: absolute;
+    left: 10px;
+}
+.after{
+    height: 50px;
+    width: 50px;
+    border: 3px solid #151D3B;
+    border-radius: 50%;
+    background: #153b19;
+    color: #F2F2F2;
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    position: absolute;
+    right:10px;
 }
 .next:hover{
+    color: #444941;
+    opacity: .8;
+    transform: scale(1.5);
+}
+.after:hover{
     color: #444941;
     opacity: .8;
     transform: scale(1.5);
@@ -459,7 +479,18 @@ a{
 @media screen and (max-width:800px){
 
 
-
+.next{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: rotate(90deg);
+}
+.after{
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: rotate(90deg);
+}
     #icon_logo{
     
         font-size: 60px;
